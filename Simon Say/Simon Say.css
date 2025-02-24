@@ -1,0 +1,48 @@
+
+body{
+    background-color: #1b1b1b;
+}
+
+.Divmain {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);}
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: rgb(255, 251, 0);
+}
+
+#red {
+    background-color: rgb(238, 40, 14);
+}
+
+#green {
+    background-color: rgb(51, 238, 14);
+}
+.DivEle1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    transform: scale(1.07);
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.4); 
+}
+
+.flash {
+    background-color: white !important;
+}
